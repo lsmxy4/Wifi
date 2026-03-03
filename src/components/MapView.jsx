@@ -31,7 +31,7 @@ const MapView = ({ selectedSpot, spots = [] }) => {
                 removable: true
             })
         })
-    }, [])
+    }, [ready])
 
     useEffect(() => {
 
